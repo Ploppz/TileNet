@@ -436,7 +436,7 @@ mod defs;
 mod tiles;
 
 pub use defs::{SuperCover, Line, Vector};
-pub use collable::{CollableState, Collable, Points};
+pub use collable::{Collable, Points};
 pub use tiles::{TileNet, TileNetProxy, TileView, TileSet};
 
 #[cfg(test)]
