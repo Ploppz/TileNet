@@ -61,7 +61,7 @@ impl<'a, T, I> TileSet<'a, T, I>
 	///
 	/// When iterating over the tileset, it may be useful to get the last
 	/// coordinate. This function provides you this coordinate.
-	pub fn get_coords(&self) -> (i32, i32) {
+	pub fn get_last_coord(&self) -> (i32, i32) {
 		self.last_coord
 	}
 }

@@ -57,6 +57,7 @@ pub trait Collable<T> {
 	fn points(&self) -> Points;
 
 	/// Returns the movement vector of the object
+    // TODO rename to maybe wanted_displacement() or something? Or queued_move as in doc comment below
 	fn queued(&self) -> Vector;
 
 	/// Resolve the movement: you get a set of tiles and you decide what to do with them.
